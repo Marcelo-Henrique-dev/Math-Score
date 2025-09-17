@@ -1,23 +1,22 @@
 # Project Model Canvas — Kaggle Chatbot MVP (Exemplo Titanic)
 
 ## Contexto
-A nutrição é base para qualidade de vida.
+Diversos fatores influenciam notas escolares.
 
 ---
 
 ## Problema a ser Respondido
-Quais alimentos são mais processados ou menos saudáveis?
+Quais fatores mais influenciam boas notas em matemática e leitura?
 
 ---
 
 ## Pergunta Norteadora
-- Prever se o alimento é saudável ou não.
-
+- Qual a nota em matemática ?
 ---
 
 ## Solução Proposta
 Desenvolver um **chatbot educacional em Streamlit** que:  
-1. Permita upload do arquivo `.csv` do OpenFoodFacts.  
+1. Permita upload do arquivo `.csv` do Students Performance.  
 2. Treine modelos de:
    - Regressão logística (classificação).  
    - Regressão linear (predição).  
