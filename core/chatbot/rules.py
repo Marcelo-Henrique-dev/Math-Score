@@ -13,6 +13,6 @@ def answer_from_metrics(question: str, task: str, metrics_df_or_dict, importance
         return "O pipeline aplica imputação, one-hot e padronização; depois treina Logistic Regression (class.) ou Linear Regression (regr.)."
 
     if "code" in q or "lgpd" in q:
-        return "No OpenFoodFacts - CHATBOT 🍔, evitamos dados sensíveis, anonimização por padrão e não persistimos dados pessoais. Para produção: consentimento expresso, minimização e auditoria."
+        return "No 📚 Students Performance - CHATBOT, evitamos dados sensíveis, anonimização por padrão e não persistimos dados pessoais. Para produção: consentimento expresso, minimização e auditoria."
 
     return "Posso falar sobre variáveis importantes, métricas do modelo e como o pipeline funciona. Pergunte algo como 'Quais variáveis mais importam?'."
